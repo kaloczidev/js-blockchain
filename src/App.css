@@ -1,0 +1,11 @@
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.balances span {
+  display: block;
+}
+.balances span strong {
+  display: inline-block;
+  min-width: 60px;
+}

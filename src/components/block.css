@@ -1,0 +1,30 @@
+.blockchain-block {
+  display: block;
+  border-top: 1px solid #f0f0f0;
+  padding: 10px;
+}
+.blockchain-block:hover {
+  background-color: #f1f1f1;
+}
+.blockchain-block .hash {
+  font-size: .8rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 4px;
+  opacity: 0.6;
+}
+
+.transaction-data {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+.transaction-data .column {
+  text-align: center;
+}
+.transaction-data .column strong {
+  display: block;
+  padding-bottom: 5px;
+  font-size: .8rem;
+}
