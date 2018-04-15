@@ -1,0 +1,25 @@
+{
+  "name": "bchain",
+  "version": "1.0.0",
+  "description": "simple blockchain project in javascript",
+  "main": "src/index.js",
+  "author": "David Kaloczi",
+  "license": "MIT",
+  "dependencies": {
+    "sha-256": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.69.0",
+    "flow-typed": "^2.4.0",
+    "rimraf": "^2.6.2"
+  },
+  "scripts": {
+    "start": "rimraf lib/* && babel ./src/* -d ./lib && node ./lib/src/index.js",
+    "build": "babel ./src/* -d ./lib",
+    "flow:deps": "flow-typed install"
+  }
+}
